@@ -1,0 +1,27 @@
+@import url('https://css.gg/home-alt.css');
+@import url('https://css.gg/hashtag.css');
+@import url('https://css.gg/bell.css');
+@import url('https://css.gg/mail.css');
+@import url('https://css.gg/bookmark.css');
+@import url('https://css.gg/profile.css');
+
+.container{
+    display: flex;
+}
+
+.scrollable {
+    height: 38em; /* or any value */
+    overflow-y: auto;
+    width: 45%;
+    border: 2px solid blueviolet;
+}
+.nav{
+    width: 25%;
+    border: 2px solid black;
+    height: 38em;
+}
+
+a:hover{
+    background-color: rgba(255, 0, 0, 0.2);
+    opacity: 0.5;
+}
